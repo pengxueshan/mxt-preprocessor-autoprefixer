@@ -9,8 +9,7 @@ var postcss = require('postcss');
 var autoprefixer = require('autoprefixer');
 
 module.exports = function (content, file, settings) {
-    var processor = postcss([autoprefixer]);
+    var processor = postcss([autoprefixer(settings)]);
     ret = processor.process(content).css;
-    console.log(ret);
     return ret;
 };
