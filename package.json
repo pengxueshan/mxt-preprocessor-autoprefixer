@@ -1,0 +1,27 @@
+{
+  "name": "mxt-preprocessor-autoprefixer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengxueshan/mxt-preprocessor-autoprefixer.git"
+  },
+  "keywords": [
+    "mxt",
+    "autoprefixer"
+  ],
+  "author": "mountain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pengxueshan/mxt-preprocessor-autoprefixer/issues"
+  },
+  "homepage": "https://github.com/pengxueshan/mxt-preprocessor-autoprefixer#readme",
+  "dependencies": {
+    "autoprefixer": "^6.3.6",
+    "postcss": "^5.0.21"
+  }
+}
